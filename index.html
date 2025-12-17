@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Toko Kue Vita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HALAMAN LOGIN -->
+<div class="container" id="loginPage">
+    <h1 class="title">🍰 Login Toko Kue Vita 🍰</h1>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+</div>
+
+<!-- HALAMAN UTAMA -->
+<div class="container hidden" id="homePage">
+    <h1 class="title">TOKO KUE VITA</h1>
+
+    <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75"
+         alt="Toko Kue Manis"
+         class="shop-img">
+
+    <p>
+        Toko Kue Vita adalah toko kue manis yang menyediakan berbagai macam kue
+        lezat dengan cita rasa rumahan. Setiap kue dibuat dari bahan pilihan,
+        higienis, dan penuh cinta untuk menemani momen spesial Anda.
+    </p>
+
+    <p><b>📍 Alamat:</b> Jl. Manis Raya No. 10, Kota Bahagia</p>
+    <p><b>⏰ Jam Operasional:</b> Setiap hari, 08.00 – 20.00 WIB</p>
+
+    <div class="promo">
+        🍪 *Maniskan harimu dengan kue terbaik dari Toko Kue Vita!
+        Rasakan kelezatan yang bikin ketagihan!* 🍪
+    </div>
+
+    <button onclick="logout()">Log Out</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
